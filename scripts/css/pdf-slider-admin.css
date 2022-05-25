@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.pdf-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #7474742b;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.fileinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+span.filename {
+    text-align: center;
+}
+span.filename{
+    width: 100%;
+}
+button.uploadpdf {
+    width: fit-content;
+}
